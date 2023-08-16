@@ -1,3 +1,5 @@
+"use client";
+
 import { BlogPreview } from ".";
 import { FirstBlogPreview } from "./FirstBlogPreview";
 

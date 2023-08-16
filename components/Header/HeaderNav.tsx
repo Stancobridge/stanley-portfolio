@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 
 export const HeaderNav = () => {
@@ -12,7 +14,7 @@ export const HeaderNav = () => {
           >
             Home
           </Link>
-          <Link href="/">Blog</Link>
+          <Link href="/blog">Blog</Link>
           <Link href="/">Projects</Link>
           <Link href="/">Connect me to a project</Link>
         </nav>
