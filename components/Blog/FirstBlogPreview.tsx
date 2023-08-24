@@ -4,9 +4,9 @@ import Image from "next/image";
 import { CalenderIcon } from "../Assets";
 
 export const FirstBlogPreview = () => (
-  <section className="flex space-x-8">
-    <div className="flex w-[60%] py-4 space-x-4">
-      <div className="relative w-[40%] h-56 rounded-md">
+  <section className="flex space-x-8 sm:flex-row flex-col">
+    <div className="flex sm:w-[60%] py-4 space-x-4 xs:flex-row flex-col">
+      <div className="relative xs:w-[40%] h-56 rounded-md">
         <Image
           alt=""
           src={"/images/blogs/first-blog.jpeg"}
@@ -15,7 +15,7 @@ export const FirstBlogPreview = () => (
           objectFit="cover"
         />
       </div>
-      <div className="w-[60%]">
+      <div className="xs:w-[60%]">
         <h4 className="font-semibold text-white text-2xl pb-4">
           Disguise Driven Testing: Jest Mocks In Depth — Part 2
         </h4>
