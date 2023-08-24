@@ -4,13 +4,13 @@ import Link from "next/link";
 
 export const Hero = () => (
   <>
-    <section className="flex py-10 mt-8 justify-between">
-      <div className="w-6/12">
+    <section className="flex py-10 justify-between lg:flex-row flex-col">
+      <div className="lg:w-6/12">
         <div className="">
-          <h1 className="text-5xl font-extrabold mt-8">
+          <h1 className="md:text-5xl sm:text-3xl text-2xl font-extrabold md:mt-8">
             Hi, I&apos;m Okechukwu Stanley{" "}
           </h1>
-          <h4 className="text-2xl mt-3 font-light">
+          <h4 className="sm:text-2xl text-xl mt-3 font-light">
             I build Digital products through Years of Software <br />{" "}
             Engineering Mastery
             {/* , I love building web and Mobile Apps that Transcend

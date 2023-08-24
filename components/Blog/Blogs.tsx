@@ -11,7 +11,7 @@ export const Blog = () => {
         <h2 className="">See all blogs</h2>
       </div>
       <FirstBlogPreview />
-      <div className="py-4 grid grid-cols-3 gap-10">
+      <div className="py-4 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10">
         <BlogPreview imageUrl="/images/blogs/first-blog.jpeg" />
         <BlogPreview imageUrl="/images/blogs/second-post.jpg" />
         <BlogPreview imageUrl="/images/blogs/third-post.jpg" />
